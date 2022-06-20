@@ -2,6 +2,8 @@ package com.example.shemajamebel1
 
 class MathOperations {
 
+
+    // უსგ
     fun GCD (n1:Int, n2:Int):Int{
 
         var gcd = 1
@@ -16,10 +18,12 @@ class MathOperations {
         return gcd
     }
 
+    // უსჯ
     fun LCM(n1:Int,n2:Int){
         println("უსჯ არის ${n1 + n2 / GCD(n1,n2)}")
     }
 
+    // შეიცავს თუარა დოლარის ნიშანს.
     fun ifContainsDollarSign(word:String){
 
         if (word.contains("$")){
@@ -30,6 +34,7 @@ class MathOperations {
 
     }
 
+    // ლუწი რიცხვების ჯამი
     fun sumOfEvenNumbs(){
         var x = 1
         for(i in 0..100){
@@ -41,6 +46,7 @@ class MathOperations {
 
     }
 
+    //შებურნებული რიცხვი
     fun numberReverted(x:Int){
 
         var reverse: Int = 0
@@ -55,6 +61,7 @@ class MathOperations {
 
     }
 
+    // პალინდრომი
     fun palindromeChecker(word:String){
 
         var wordLowercased = word.toLowerCase()
