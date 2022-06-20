@@ -2,7 +2,6 @@ package com.example.shemajamebel1
 
 class MathOperations {
 
-
     fun GCD (n1:Int, n2:Int):Int{
 
         var gcd = 1
