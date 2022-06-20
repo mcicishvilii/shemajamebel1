@@ -2,9 +2,6 @@ package com.example.shemajamebel1
 
 class MathOperations {
 
-    fun LCM(n1:Int,n2:Int){
-        n1 + n2 / GCD(n1,n2)
-    }
 
     fun GCD (n1:Int, n2:Int):Int{
 
@@ -18,6 +15,10 @@ class MathOperations {
         }
         println("უსგ არის $gcd")
         return gcd
+    }
+
+    fun LCM(n1:Int,n2:Int){
+        println("უსჯ არის ${n1 + n2 / GCD(n1,n2)}")
     }
 
     fun ifContainsDollarSign(word:String){
