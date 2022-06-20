@@ -2,11 +2,11 @@ package com.example.shemajamebel1
 
 class MathOperations {
 
-    private fun LCM(n1:Int,n2:Int){
+    fun LCM(n1:Int,n2:Int){
         n1 + n2 / GCD(n1,n2)
     }
 
-    private fun GCD (n1:Int, n2:Int):Int{
+    fun GCD (n1:Int, n2:Int):Int{
 
         var gcd = 1
         var i = 1
@@ -20,7 +20,7 @@ class MathOperations {
         return gcd
     }
 
-    private fun ifContainsDollarSign(word:String){
+    fun ifContainsDollarSign(word:String){
 
         if (word.contains("$")){
             println("contains")
@@ -30,7 +30,7 @@ class MathOperations {
 
     }
 
-    private fun sumOfEvenNumbs(){
+    fun sumOfEvenNumbs(){
         var x = 1
         for(i in 0..100){
             if (i % 2 == 0){
@@ -41,7 +41,7 @@ class MathOperations {
 
     }
 
-    private fun numberReverted(x:Int){
+    fun numberReverted(x:Int){
 
         var reverse: Int = 0
         var num: Int = x
@@ -55,7 +55,7 @@ class MathOperations {
 
     }
 
-    private fun palindromeChecker(word:String){
+    fun palindromeChecker(word:String){
 
         var wordLowercased = word.toLowerCase()
 
