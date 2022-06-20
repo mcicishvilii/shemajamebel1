@@ -20,12 +20,12 @@ class MathOperations {
         return gcd
     }
 
-    private fun ifIsDollarSign(word:String){
+    private fun ifContainsDollarSign(word:String){
 
         if (word.contains("$")){
-            println("უსჯ")
+            println("contains")
         }else{
-            println("არ არის")
+            println("dollar free!")
         }
 
     }
